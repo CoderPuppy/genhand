@@ -1,4 +1,8 @@
-var genhand = require('./')
+# GenHand
+
+## Usage
+```javascript
+var genhand = require('genhand')
 var http    = require('http')
 
 var server = http.createServer(genhand(function*(req, res) {
@@ -13,3 +17,4 @@ server.listen(3000, function() {
 	else
 		console.log('Server starting: ok!')
 })
+```
