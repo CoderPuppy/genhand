@@ -4,6 +4,6 @@
 	"version": "0.0.0",
 	"author": "CoderPuppy",
 	"dependencies": {
-		"cooperator": "^0.0.0"
+		"cooperator": "^0.0.4"
 	}
 }
